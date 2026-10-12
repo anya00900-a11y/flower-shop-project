@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #a8c3a0;
-    padding: 20px 40px;
+    padding: 11px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,4 +25,12 @@ header {
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Monotype Corsiva;
+    color: #ffffff;
 }
