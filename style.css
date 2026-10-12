@@ -5,3 +5,24 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f0;
+    color: #3a3a3a;
+    line-height: 1.6;
+}
+
+/* ===== Шапка сайта (Каталог, о нас, контакты) ===== */
+
+header {
+    background-color: #a8c3a0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
