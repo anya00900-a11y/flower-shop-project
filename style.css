@@ -34,3 +34,94 @@ header {
     font-family: Monotype Corsiva;
     color: #ffffff;
 }
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* ===== Баннер =====*/
+.hero {
+    background-color: #f8d7da;
+    padding: 100px 40px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color:#3a3a3a;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.hero p {
+    font-size: 20px;
+    color:#3a3a3a;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #a8c3a0;
+    color:#ffffff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero button:hover {
+    background-color: #8dab85;
+    transform: scale(1.03);
+}
+
+.hero button:active {
+    transform: scale(0.98);
+}
+
+.hidden {
+    display: none;
+}
+
+#phoneNumber {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+/* ===== Каталог ===== */
+
+.catalog {
+    padding: 80px 40px;
+    background-color: #fdf6f0;
+}
+
+.catalog h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #3a3a3a
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.09);
+    width: 300px;
+}
